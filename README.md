@@ -31,7 +31,7 @@ Lahiru Traders Marine Services provides:
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/ltms-website.git
+git clone https://github.com/YasiruLaki/LahiruMarine-next.git
 cd ltms-website
 npm install
 npm run dev
