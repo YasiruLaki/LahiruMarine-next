@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --dark-blue-1: #121D50;
+  --dark-blue-2: #090E23;
+  --dark-blue-3: #060A17;
+
+  --blue-1: #0E33CB;
+  --blue-2: #1F45E4;
+
+  --orange: #EC4621;
+  --grey-1: #EDF0F3;
+  --grey-2: #5C6C7B;
+
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --font-heading: 'Space Grotesk', sans-serif;
+
+  --font-heading-weight: 800;
+
+  --font-heading-1-size: 64px;
+  --font-heading-2-size: 48px;
+  --font-heading-3-size: 40px;
+  --font-heading-4-size: 32px;
+  --font-heading-5-size: 25px;
+  --font-heading-6-size: 20px;
+
+  --font-subheading-weight: 500;
+
+  --font-subheading-1-size: 18px;
+  --font-subheading-2-size: 14px;
+
+  --font-body: 'Roboto', sans-serif;
+
+  --font-body-weight: 400;
+
+  --font-body-1-size: 18px;
+  --font-body-2-size: 16px;
+
+  --font-btn-size: 16px;
+
+  --font-caption-size: 12px;
+
+  --font-heading-3: 'Space Grotesk', sans-serif;
+}
+
+.heading-1 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  font-size: var(--font-heading-1-size);
+  line-height: 103%;
+}
+
+.heading-2 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  font-size: var(--font-heading-2-size);
+  line-height: 130%;
+}
+
+.heading-3 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  font-size: var(--font-heading-3-size);
+  line-height: 130%;
+}
+
+.heading-4 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  font-size: var(--font-heading-4-size);
+  line-height: 130%;
+}
+
+.heading-5 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  font-size: var(--font-heading-5-size);
+  line-height: 130%;
+}
+
+.heading-6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  font-size: var(--font-heading-6-size);
+  line-height: 130%;
+}
+
+.subheading-1 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-subheading-weight);
+  font-size: var(--font-subheading-1-size);
+  line-height: 100%;
+}
+
+.subheading-2 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-subheading-weight);
+  font-size: var(--font-subheading-2-size);
+  line-height: 100%;
+}
+
+.body-1 {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: var(--font-body-1-size);
+  line-height: 140%;
+}
+
+.body-2 {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: var(--font-body-2-size);
+  line-height: 140%;
+}
+
+.caption {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: var(--font-caption-size);
+  line-height: 140%;
+}
+
+.btn {
+  font-family: var(--font-heading);
+  font-weight: var(--font-body-weight);
+  font-size: var(--font-btn-size);
+  line-height: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .heading-1 {
+    font-size: 50px;
+  }
+  .heading-2 {
+    font-size: 32px;
+  }
+  .heading-3 {
+    font-size: 24px;
+  }
+  .heading-4 {
+    font-size: 20px;
+  }
+  .heading-5 {
+    font-size: 20px;
+  }
+  .heading-6 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .heading-1 {
+    font-size: 48px;
+  }
+  .heading-2 {
+    font-size: 24px;
+  }
+  .heading-3 {
+    font-size: 20px;
+  }
+  .heading-4 {
+    font-size: 18px;
+  }
+  .heading-5 {
+    font-size: 15px;
+  }
+  .heading-6 {
+    font-size: 14px;
+  }
+  .subheading-1 {
+    font-size: 12px;
+  }
+  .subheading-2 {
+    font-size: 10px;
+  }
+  .body-1 {
+    font-size: 14px;
+  }
+  .body-2{
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .heading-1 {
+    font-size: 42px;
+  }
+  .heading-2 {
+    font-size: 24px;
+  }
+  .heading-3 {
+    font-size: 20px;
+  }
+  .heading-4 {
+    font-size: 18px;
+  }
+  .heading-5 {
+    font-size: 16px;
+  }
+  .heading-6 {
+    font-size: 14px;
+  }
+  .subheading-1 {
+    font-size: 12px;
+  }
+  .subheading-2 {
+    font-size: 10px;
+  }
+  .body-1 {
+    font-size: 14px;
+  }
+}
