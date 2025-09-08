@@ -76,12 +76,12 @@ export default function Landing() {
               ABOUT US
             </p>
             <h1 className="heading-2 text-[var(--dark-blue-1)] mb-6">
-              POWERING SRI LANKA'S MARINE INDUSTRY FOR OVER 30 YEARS
+              POWERING SRI LANKA&apos;S MARINE INDUSTRY FOR OVER 30 YEARS
             </h1>
             <div className="space-y-4 body-1 text-[var(--grey-2)]">
               <p>
                 Founded in 1992, Lahiru Traders has been at the forefront of Sri
-                Lanka's marine industry for over 30 years. With a strong
+                Lanka&apos;s marine industry for over 30 years. With a strong
                 commitment to safety, compliance, and operational excellence, we
                 continue to evolve to meet the dynamic needs of Shipping
                 Agencies, operators, and maritime businesses both within Sri
